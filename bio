@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GCSE Biology – Climate Change & Greenhouse Gases (Revision Notes)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #d7f3ff, #ffffff);
+            color: #222;
+        }
+        header {
+            background: #01579b;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        nav a {
+            color: #bbdefb;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover { text-decoration: underline; }
+        main {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 25px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 8px;
+        }
+        section { padding: 25px 0; border-bottom: 1px solid #ccc; }
+        section:last-of-type { border-bottom: none; }
+        h2 { color: #01579b; margin-top: 0; }
+        .flex-row { display: flex; flex-wrap: wrap; gap: 20px; }
+        .flex-col { flex: 1 1 280px; }
+        .image-placeholder, .video-placeholder {
+            width: 100%;
+            min-height: 180px;
+            background: #eeeeee;
+            border: 2px dashed #bdbdbd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #757575;
+            padding: 10px;
+            text-align: center;
+        }
+        .diagram-box {
+            border: 2px solid #4fc3f7;
+            background: #e1f5fe;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.85rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>GCSE Biology – Climate Change & Greenhouse Gases</h1>
+    <nav>
+        <a href="#ghg">Greenhouse Gases</a>
+        <a href="#importance">Importance</a>
+        <a href="#human">Human Impact</a>
+        <a href="#effect">Greenhouse Effect</a>
+        <a href="#consequences">Consequences</a>
+        <a href="#pollutants">Other Pollutants</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- GREENHOUSE GASES -->
+<section id="ghg">
+    <h2>What Are Greenhouse Gases?</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p>
+                Greenhouse gases (GHGs) are gases in the atmosphere that trap heat. They allow short‑wave radiation 
+                (sunlight) to pass through the atmosphere but absorb long‑wave infrared radiation that the Earth 
+                re‑emits. This keeps the planet warm enough for life.
+            </p>
+            <p><strong>Main greenhouse gases (GCSE):</strong></p>
+            <ul>
+                <li><strong>Carbon dioxide (CO₂):</strong> Released from burning fossil fuels and deforestation.</li>
+                <li><strong>Methane (CH₄):</strong> Produced by cattle, rice fields, and landfill sites.</li>
+                <li><strong>Nitrous oxide (N₂O):</strong> Released from fertilisers and industry.</li>
+                <li><strong>Water vapour (H₂O):</strong> Naturally present; increases as temperatures rise.</li>
+            </ul>
+        </div>
+        <div class="flex-col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG8D5rbIoo2uUK7HODDwitFCODS4sMQ3Ahw&s"
+                 alt="Greenhouse gases diagram"
+                 style="width:100%; border-radius:6px;">
+        </div>
+    </div>
+</section>
+
+<!-- IMPORTANCE -->
+<section id="importance">
+    <h2>Why Are Greenhouse Gases Important?</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p>
+                Greenhouse gases are essential for maintaining a stable climate. Without them, Earth would be 
+                around <strong>33°C colder</strong> and unable to support most life.
+            </p>
+            <p><strong>They help by:</strong></p>
+            <ul>
+                <li>Keeping Earth warm enough for liquid water.</li>
+                <li>Maintaining stable climates and ecosystems.</li>
+                <li>Allowing agriculture and biodiversity to exist.</li>
+            </ul>
+        </div>
+        <div class="flex-col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDOR6ZeFSK-An0Ha9Lw6WXHyRx6fujqvAbg&s"
+                 alt="Importance of greenhouse gases"
+                 style="width:100%; border-radius:6px;">
+        </div>
+    </div>
+</section>
+
+<!-- HUMAN IMPACT -->
+<section id="human">
+    <h2>How Human Activities Increase Greenhouse Gases</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p>
+                Since the Industrial Revolution, humans have increased greenhouse gas levels dramatically. 
+                This strengthens the natural greenhouse effect, causing the <strong>enhanced greenhouse effect</strong> 
+                and global warming.
+            </p>
+            <p><strong>Main human sources:</strong></p>
+            <ul>
+                <li><strong>Burning fossil fuels:</strong> Cars, power stations, heating → CO₂.</li>
+                <li><strong>Deforestation:</strong> Fewer trees to absorb CO₂.</li>
+                <li><strong>Agriculture:</strong> Cattle produce methane; fertilisers release N₂O.</li>
+                <li><strong>Landfill sites:</strong> Decomposing waste releases methane.</li>
+            </ul>
+        </div>
+        <div class="flex-col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UCMwDxugKNFbBReiziqlsZ8LPpxD3U0mNg&s"
+                 alt="Human activities producing emissions"
+                 style="width:100%; border-radius:6px;">
+        </div>
+    </div>
+</section>
+
+<!-- GREENHOUSE EFFECT -->
+<section id="effect">
+    <h2>The Greenhouse Effect (GCSE Explanation)</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p>
+                The greenhouse effect is a natural process. The Sun emits short‑wave radiation that passes through 
+                the atmosphere and warms the Earth. The Earth then emits long‑wave infrared radiation. Greenhouse 
+                gases absorb this heat and re‑radiate it in all directions.
+            </p>
+            <p>
+                Human activity increases greenhouse gas levels, making the insulating layer thicker. This is the 
+                <strong>enhanced greenhouse effect</strong>, which leads to global warming.
+            </p>
+        </div>
+        <div class="flex-col">
+            <div class="diagram-box">
+                <strong>Labeled Diagram – The Greenhouse Effect</strong>
+                <div class="image-placeholder" style="margin-top:10px;">
+                    Replace with diagram showing:<br>
+                    • Sunlight entering atmosphere<br>
+                    • Earth absorbing heat<br>
+                    • Infrared radiation leaving Earth<br>
+                    • Greenhouse gases trapping heat
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONSEQUENCES -->
+<section id="consequences">
+    <h2>Consequences of Global Warming</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p><strong>Global warming causes major environmental and biological impacts:</strong></p>
+            <ul>
+                <li><strong>Rising sea levels:</strong> Melting ice caps + thermal expansion.</li>
+                <li><strong>Loss of biodiversity:</strong> Species unable to adapt quickly enough.</li>
+                <li><strong>More extreme weather:</strong> Storms, droughts, heatwaves.</li>
+                <li><strong>Changes in migration patterns:</strong> Birds, insects, and fish shift ranges.</li>
+                <li><strong>Coral bleaching:</strong> Warmer oceans stress coral reefs.</li>
+                <li><strong>Food insecurity:</strong> Crop failures in some regions.</li>
+            </ul>
+        </div>
+        <div class="flex-col">
+            <div class="image-placeholder">
+                Insert image: consequences of climate change
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OTHER POLLUTANTS -->
+<section id="pollutants">
+    <h2>Other Gases Released by Burning Fossil Fuels</h2>
+    <div class="flex-row">
+        <div class="flex-col">
+            <p>
+                Burning fossil fuels also releases harmful pollutants that are not greenhouse gases but still 
+                damage health and the environment.
+            </p>
+            <ul>
+                <li><strong>Sulfur dioxide (SO₂):</strong> Causes acid rain; damages plants and buildings.</li>
+                <li><strong>Nitrogen oxides (NOₓ):</strong> Contribute to smog and acid rain; irritate lungs.</li>
+                <li><strong>Particulates (PM2.5/PM10):</strong> Tiny particles that cause respiratory and heart problems.</li>
+                <li><strong>Carbon monoxide (CO):</strong> Toxic gas that reduces oxygen transport in blood.</li>
+                <li><strong>Unburnt hydrocarbons:</strong> Contribute to ground‑level ozone formation.</li>
+            </ul>
+        </div>
+        <div class="flex-col">
+            <div class="image-placeholder">
+                Insert image: air pollution from vehicles or factories
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video">
+    <h2>Video Placeholder</h2>
+    <p>You can embed a GCSE‑level climate change video here.</p>
+    <div class="video-placeholder">
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                title="Climate Change Video"
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    &copy; 2026 GCSE Biology – Climate Change Revision Notes
+</footer>
+
+</body>
+</html>
