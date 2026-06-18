@@ -242,6 +242,102 @@
     </div>
 </section>
 
+<!-- QUIZ SECTION -->
+<section id="quiz">
+    <h2>Test Your Knowledge – Climate Change Quiz</h2>
+    <p>Answer the 5 questions below and check your score.</p>
+
+    <div id="quiz-container"></div>
+
+    <button onclick="checkQuiz()" style="margin-top:15px; padding:10px 20px;">
+        Submit Answers
+    </button>
+
+    <h3 id="quiz-result" style="margin-top:20px;"></h3>
+</section>
+
+<script>
+// Quiz questions (answers will be shuffled randomly)
+const quizData = [
+    {
+        question: "1. Which gas is mainly released by burning fossil fuels?",
+        options: ["Carbon dioxide", "Methane", "Nitrous oxide"],
+        answer: "Carbon dioxide"
+    },
+    {
+        question: "2. What human activity is a major source of methane?",
+        options: ["Cattle farming", "Deforestation", "Burning coal"],
+        answer: "Cattle farming"
+    },
+    {
+        question: "3. What is the enhanced greenhouse effect?",
+        options: [
+            "The thickening of the greenhouse gas layer due to human activity",
+            "The natural warming of Earth",
+            "The cooling of Earth caused by pollution"
+        ],
+        answer: "The thickening of the greenhouse gas layer due to human activity"
+    },
+    {
+        question: "4. Which of these is a consequence of global warming?",
+        options: ["More extreme weather", "Lower sea levels", "Less water vapour"],
+        answer: "More extreme weather"
+    },
+    {
+        question: "5. Which pollutant causes acid rain?",
+        options: ["Sulfur dioxide", "Carbon monoxide", "Water vapour"],
+        answer: "Sulfur dioxide"
+    }
+];
+
+// Fisher–Yates shuffle
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Render quiz with shuffled answers
+const quizContainer = document.getElementById("quiz-container");
+
+quizData.forEach((q, index) => {
+    shuffle(q.options); // shuffle answers per question
+
+    const div = document.createElement("div");
+    div.style.marginBottom = "20px";
+
+    let html = `<p><strong>${q.question}</strong></p>`;
+    q.options.forEach(option => {
+        html += `
+            <label>
+                <input type="radio" name="q${index}" value="${option}">
+                ${option}
+            </label><br>
+        `;
+    });
+
+    div.innerHTML = html;
+    quizContainer.appendChild(div);
+});
+
+// Check answers
+function checkQuiz() {
+    let score = 0;
+
+    quizData.forEach((q, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        if (selected && selected.value === q.answer) {
+            score++;
+        }
+    });
+
+    document.getElementById("quiz-result").textContent =
+        `You scored ${score} out of ${quizData.length}.`;
+}
+</script>
+
+
 </main>
 
 <footer>
@@ -249,3 +345,4 @@
 </footer>
 
 </body>
+</html>
